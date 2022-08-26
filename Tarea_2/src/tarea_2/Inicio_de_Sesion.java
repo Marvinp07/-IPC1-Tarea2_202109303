@@ -131,14 +131,14 @@ public class Inicio_de_Sesion extends javax.swing.JFrame {
         jPanel5.setPreferredSize(new java.awt.Dimension(220, 40));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(242, 242, 242));
         jTextField2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField2.setText("Usuario:");
         jTextField2.setBorder(null);
-        jTextField2.setEnabled(false);
         jTextField2.setOpaque(true);
-        jPanel5.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 70, 40));
+        jPanel5.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 80, 40));
 
         txt_user.setBackground(new java.awt.Color(242, 242, 242));
         txt_user.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -161,6 +161,7 @@ public class Inicio_de_Sesion extends javax.swing.JFrame {
         txtPassOculto.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txtPassOculto.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txtPassOculto.setBorder(null);
+        txtPassOculto.setOpaque(true);
         jPanel6.add(txtPassOculto, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 150, 40));
 
         txtPassVisible.setBackground(new java.awt.Color(242, 242, 242));
@@ -175,14 +176,14 @@ public class Inicio_de_Sesion extends javax.swing.JFrame {
         });
         jPanel6.add(txtPassVisible, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 0, 150, 40));
 
+        jTextField3.setEditable(false);
         jTextField3.setBackground(new java.awt.Color(242, 242, 242));
         jTextField3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jTextField3.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField3.setText("Contraseña:");
         jTextField3.setBorder(null);
-        jTextField3.setEnabled(false);
         jTextField3.setOpaque(true);
-        jPanel6.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        jPanel6.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 100, 40));
 
         jPanel2.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 250, 40));
 
